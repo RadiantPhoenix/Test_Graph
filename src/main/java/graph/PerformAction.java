@@ -1,4 +1,4 @@
-package main.java;
+package graph;
 
 public interface PerformAction<Vertex> {
 
