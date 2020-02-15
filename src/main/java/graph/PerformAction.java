@@ -1,6 +1,6 @@
 package graph;
 
-public interface PerformAction<Vertex> {
-
-    public void doSimpleAction(Vertex v);
+@FunctionalInterface
+public interface PerformAction<V extends Vertex> {
+    public String doSimpleAction(V v);
 }

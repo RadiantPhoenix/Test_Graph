@@ -2,10 +2,10 @@ package graph;
 
 import java.util.Objects;
 
-public class Vertex {
-    private String label;
+public final class Vertex {
+    private final String label;
 
-    Vertex(String label) {
+    public Vertex(String label) {
         this.label = label;
     }
 
